@@ -48,18 +48,18 @@ public class Sat {
         else for(int i = 0; i < -pomak; i++) Prethodni();
     }
 
-    public final int DajMinute() {
+    public int DajMinute() {
         return minute;
     }
 
-    public final int DajSate(){
+    public int DajSate(){
         return sati;
     }
 
-    public final int DajSekunde(){
+    public int DajSekunde(){
         return sekunde;
     }
-    public final void Ispisi(){
+    public void Ispisi(){
         System.out.println(DajSate()+":"+DajMinute()+":"+DajSekunde());
     }
 
